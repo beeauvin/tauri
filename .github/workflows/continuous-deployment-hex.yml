@@ -1,0 +1,28 @@
+# Copyright © 2025 Cassidy Spring (Bee).
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+name: cd / hex
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: "27.1.2"
+          gleam-version: "1.12.0"
+          rebar3-version: "3"
+
+      - name: publish
+        run: gleam publish -y
+        env:
+          HEXPM_API_KEY: ${{ secrets.HEXPM_API_KEY }}
