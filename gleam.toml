@@ -2,12 +2,9 @@ name = "tauri"
 version = "0.0.1"
 target = "javascript"
 
-# Fill out these fields if you intend to generate HTML documentation or publish
-# your project to the Hex package manager.
-#
-# description = ""
-# licences = ["Apache-2.0"]
-# repository = { type = "github", user = "", repo = "" }
+description = "Gleam wrapper for the Tauri JavaScript API"
+licences = ["MPL-2.0"]
+repository = { type = "github", user = "beeauvin", repo = "tauri" }
 # links = [{ title = "Website", href = "" }]
 #
 # For a full reference of all the available options, you can have a look at
