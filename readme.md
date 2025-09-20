@@ -3,6 +3,8 @@
 [![Package Version](https://img.shields.io/hexpm/v/tauri)](https://hex.pm/packages/tauri)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/tauri/)
 
+Starter project. There be dragons.
+
 ```sh
 gleam add tauri@1
 ```

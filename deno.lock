@@ -1,0 +1,16 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@tauri-apps/api@2": "2.8.0"
+  },
+  "npm": {
+    "@tauri-apps/api@2.8.0": {
+      "integrity": "sha512-ga7zdhbS2GXOMTIZRT0mYjKJtR9fivsXzsyq5U3vjDL0s6DTMwYRm0UHNjzTY5dh4+LSC68Sm/7WEiimbQNYlw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@tauri-apps/api@2"
+    ]
+  }
+}
