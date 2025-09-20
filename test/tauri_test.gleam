@@ -1,13 +1,12 @@
 import gleeunit
+import gleeunit/should
 
-pub fn main() -> Nil {
+pub fn main() {
   gleeunit.main()
 }
 
-// gleeunit test functions end in `_test`
-pub fn hello_world_test() {
-  let name = "Joe"
-  let greeting = "Hello, " <> name <> "!"
-
-  assert greeting == "Hello, Joe!"
+// Just test that the module compiles successfully
+pub fn compilation_test() {
+  // If this test runs, it means everything compiled successfully
+  should.equal(1, 1)
 }

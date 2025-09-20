@@ -1,5 +1,3 @@
-import gleam/io
-
-pub fn main() -> Nil {
-  io.println("Hello from tauri!")
+pub fn foo() -> String {
+  "Hello, Gleam!"
 }
