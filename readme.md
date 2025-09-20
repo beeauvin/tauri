@@ -24,3 +24,9 @@ Further documentation can be found at <https://hexdocs.pm/tauri>.
 gleam run   # Run the project
 gleam test  # Run the tests
 ```
+
+## License
+
+This project is available under the [Mozilla Public License 2.0](https://mozilla.org/MPL/2.0/).
+
+A copy of the MPLv2 is included in the [license.md](/license.md) file for convenience.
