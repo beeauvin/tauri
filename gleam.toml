@@ -4,7 +4,7 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 name = "tauri"
-version = "0.0.1"
+version = "0.0.2"
 target = "javascript"
 
 description = "Gleam wrapper for the Tauri JavaScript API"
