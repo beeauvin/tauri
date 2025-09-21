@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "imports": {
+    "@tauri-apps/api": "npm:@tauri-apps/api@^2.8.0",
+    "@tailwindcss/cli": "npm:@tailwindcss/cli@^4.1.13",
+    "@tauri-apps/cli": "npm:@tauri-apps/cli@^2.8.4",
+    "tailwindcss": "npm:tailwindcss@^4.1.13"
+  },
+  "nodeModulesDir": "auto"
+}
