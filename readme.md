@@ -3,27 +3,14 @@
 [![Package Version](https://img.shields.io/hexpm/v/tauri)](https://hex.pm/packages/tauri)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/tauri/)
 
-Starter project. There be dragons.
+Starter project. There be dragons. Definitely interested in feedback and suggestions. 🩷
 
-```sh
-gleam add tauri@1
-```
-```gleam
-import tauri
+Use: `gleam add tauri`
 
-pub fn main() -> Nil {
-  // TODO: An example of the project in use
-}
-```
+Example app (conversion from tauri starter app) in [./example](./example)
 
-Further documentation can be found at <https://hexdocs.pm/tauri>.
-
-## Development
-
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-```
+Dev: `deno task dev`
+Build: `deno task build`
 
 ## License
 
