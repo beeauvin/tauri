@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@tauri-apps/api/core": "npm:@tauri-apps/api@^2.0.0/core"
+    "@tauri-apps/api": "npm:@tauri-apps/api@^2.8.0"
   },
   "tasks": {
     "build": "gleam build"
