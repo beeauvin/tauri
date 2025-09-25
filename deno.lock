@@ -1,7 +1,7 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@tauri-apps/api@2": "2.8.0"
+    "npm:@tauri-apps/api@^2.8.0": "2.8.0"
   },
   "npm": {
     "@tauri-apps/api@2.8.0": {
@@ -10,7 +10,7 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:@tauri-apps/api@2"
+      "npm:@tauri-apps/api@^2.8.0"
     ]
   }
 }
