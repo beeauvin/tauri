@@ -3,6 +3,13 @@
 [![Package Version](https://img.shields.io/hexpm/v/tauri)](https://hex.pm/packages/tauri)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/tauri/)
 
+> ### NOTICE
+> I'm not able to continue maintaining this work. The hex library is being retired and
+> repository archived. If someone comes along and wants to pick it back up or use the
+> hex package name, reach out to me and I will be glad to transfer either/both.
+
+## Getting Started
+
 Starter project. There be dragons. Definitely interested in feedback and suggestions. 🩷
 
 Use: `gleam add tauri`
