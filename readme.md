@@ -8,6 +8,8 @@
 > repository archived. If someone comes along and wants to pick it back up or use the
 > hex package name, reach out to me and I will be glad to transfer either/both.
 
+> You can find me on discord @`beeauvin` or open an issue [here](https://github.com/beeauvin/beeauvin/issues)
+
 ## Getting Started
 
 Starter project. There be dragons. Definitely interested in feedback and suggestions. 🩷
